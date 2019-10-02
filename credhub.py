@@ -28,7 +28,6 @@ def credhub():
         print('------- End: credhub values ------')
         return 'Env variable VCAP_SERVICES was not found'
 
-
     print('------- End: credhub values ------')
     return 'Credhub successful - see application log'
 
